@@ -30,12 +30,13 @@
   left: 18px;
   bottom: 15px;
 }
-.nav__notificationer {
+.nav__notification-blank {
+  display: flex;
   background-color: tomato;
   width: 7px;
   height: 7px;
   border-radius: 3.5px;
   position: absolute;
-  left: 270px;
+  left: 30px;
   bottom: 25px;
 }
