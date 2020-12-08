@@ -22,6 +22,10 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+.user-componet__subtittle i {
+  color: rgb(233, 139, 139);
+}
+
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
