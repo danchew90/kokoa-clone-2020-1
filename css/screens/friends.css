@@ -25,3 +25,18 @@
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
 }
+
+@keyframes impBodyAnimation {
+  from {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+  }
+}
+
+.friends-screen,
+#friends-display-link {
+  animation: impBodyAnimation 1s ease-in-out forwards;
+}
